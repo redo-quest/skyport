@@ -1,0 +1,37 @@
+{
+  "name": "skyportd",
+  "version": "0.3.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "configure": "node handlers/configure.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@keyv/sqlite": "^3.6.7",
+    "archiver": "^7.0.1",
+    "axios": "^1.6.8",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cat-loggr": "^1.2.2",
+    "chalk": "^4.1.2",
+    "child_process": "^1.0.2",
+    "commander": "^12.1.0",
+    "crypto": "^1.0.1",
+    "dockerode": "^4.0.2",
+    "express": "^4.19.2",
+    "express-basic-auth": "^1.2.1",
+    "ftp-srv": "^4.6.3",
+    "ftpd": "^0.2.16",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "keyv": "^4.5.4",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.10.3",
+    "path": "^0.12.7",
+    "unzipper": "^0.12.1",
+    "ws": "^8.16.0"
+  }
+}
